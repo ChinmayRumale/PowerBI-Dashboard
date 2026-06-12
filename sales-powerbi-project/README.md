@@ -1,4 +1,12 @@
 # 📊 Sales & Revenue Intelligence — Power BI Portfolio Project
+<img width="1172" height="782" alt="Screenshot 2026-06-12 234031" src="https://github.com/user-attachments/assets/f25b2f25-6d2b-47e2-9ba4-1688b4cfb8f6" />
+<img width="1918" height="1025" alt="Screenshot 2026-06-12 234138" src="https://github.com/user-attachments/assets/09cdc85f-f36a-4ee2-93b8-7a67ce7fb2f7" />
+<img width="1918" height="1031" alt="Screenshot 2026-06-12 234154" src="https://github.com/user-attachments/assets/ddedf648-f1db-42fa-a165-cadfa48b4b31" />
+<img width="1918" height="1022" alt="Screenshot 2026-06-12 234215" src="https://github.com/user-attachments/assets/80b8b402-1dc0-4e4d-91fb-fcb166d7b1a4" />
+<img width="1918" height="1030" alt="Screenshot 2026-06-12 234226" src="https://github.com/user-attachments/assets/9dae49d8-a85e-4690-b028-091780c2f4c5" />
+<img width="1918" height="991" alt="Screenshot 2026-06-12 234248" src="https://github.com/user-attachments/assets/662d98fc-c1ad-44ae-9bf6-6d2014b293ae" />
+<img width="1912" height="1030" alt="Screenshot 2026-06-12 234301" src="https://github.com/user-attachments/assets/d4740ec1-cbd1-4af5-a967-3c3f077b95b8" />
+<img width="1918" height="1025" alt="Screenshot 2026-06-12 234314" src="https://github.com/user-attachments/assets/6d1a597c-0c05-4c38-bf48-38ce7c0c44dc" />
 
 > **End-to-end Power BI project** for a Data Analyst portfolio.  
 > 5,000 synthetic orders across 5 regions, 5 categories, 4 channels, 2022–2024.
