@@ -1,0 +1,226 @@
+// ============================================================
+//  SALES & REVENUE INTELLIGENCE — ALL DAX MEASURES
+//  Copy each measure into Power BI Desktop > New Measure
+// ============================================================
+
+
+// ─────────────────────────────────────────────
+// TABLE 1 : BASE MEASURES
+// ─────────────────────────────────────────────
+
+Total Revenue =
+SUMX( Sales, Sales[Quantity] * Sales[UnitPrice] )
+
+Total COGS =
+SUMX( Sales, Sales[Quantity] * Sales[UnitCost] )
+
+Gross Profit =
+[Total Revenue] - [Total COGS]
+
+Gross Profit Margin % =
+DIVIDE( [Gross Profit], [Total Revenue], 0 )
+
+Total Orders =
+DISTINCTCOUNT( Sales[OrderID] )
+
+Total Units Sold =
+SUM( Sales[Quantity] )
+
+Average Order Value =
+DIVIDE( [Total Revenue], [Total Orders], 0 )
+
+Total Customers =
+DISTINCTCOUNT( Sales[CustomerID] )
+
+Total Returns =
+COUNTROWS( Returns )
+
+Return Rate % =
+DIVIDE( [Total Returns], [Total Orders], 0 )
+
+Net Revenue =
+[Total Revenue] - SUMX( Returns, Returns[RefundAmount] )
+
+
+// ─────────────────────────────────────────────
+// TABLE 2 : TIME INTELLIGENCE
+// ─────────────────────────────────────────────
+
+Revenue PrevMonth =
+CALCULATE(
+    [Total Revenue],
+    DATEADD( 'Date'[Date], -1, MONTH )
+)
+
+MoM Revenue Growth % =
+DIVIDE(
+    [Total Revenue] - [Revenue PrevMonth],
+    [Revenue PrevMonth],
+    0
+)
+
+Revenue PrevYear =
+CALCULATE(
+    [Total Revenue],
+    SAMEPERIODLASTYEAR( 'Date'[Date] )
+)
+
+YoY Revenue Growth % =
+DIVIDE(
+    [Total Revenue] - [Revenue PrevYear],
+    [Revenue PrevYear],
+    0
+)
+
+YTD Revenue =
+TOTALYTD( [Total Revenue], 'Date'[Date] )
+
+PYTD Revenue =
+CALCULATE(
+    TOTALYTD( [Total Revenue], 'Date'[Date] ),
+    SAMEPERIODLASTYEAR( 'Date'[Date] )
+)
+
+YTD vs PYTD Variance =
+[YTD Revenue] - [PYTD Revenue]
+
+YTD vs PYTD % =
+DIVIDE( [YTD vs PYTD Variance], [PYTD Revenue], 0 )
+
+QTD Revenue =
+TOTALQTD( [Total Revenue], 'Date'[Date] )
+
+MTD Revenue =
+TOTALMTD( [Total Revenue], 'Date'[Date] )
+
+Rolling 3M Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD( 'Date'[Date], LASTDATE( 'Date'[Date] ), -3, MONTH )
+)
+
+Rolling 12M Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD( 'Date'[Date], LASTDATE( 'Date'[Date] ), -12, MONTH )
+)
+
+
+// ─────────────────────────────────────────────
+// TABLE 3 : TARGET & ACHIEVEMENT
+// ─────────────────────────────────────────────
+
+Revenue Target =
+SUM( Targets[RevenueTarget] )
+
+Target Achievement % =
+DIVIDE( [Total Revenue], [Revenue Target], 0 )
+
+Revenue vs Target Gap =
+[Total Revenue] - [Revenue Target]
+
+
+// ─────────────────────────────────────────────
+// TABLE 4 : RANKING & TOP N
+// ─────────────────────────────────────────────
+
+Product Revenue Rank =
+RANKX(
+    ALL( Sales[Product] ),
+    [Total Revenue],
+    ,
+    DESC,
+    DENSE
+)
+
+Customer Revenue Rank =
+RANKX(
+    ALL( Sales[CustomerID] ),
+    [Total Revenue],
+    ,
+    DESC,
+    DENSE
+)
+
+// Use with a "TopN" slicer (numeric, 1–20) to filter top products dynamically
+Is Top N Product =
+VAR TopN = SELECTEDVALUE( TopNSlicer[Value], 10 )
+RETURN
+    IF( [Product Revenue Rank] <= TopN, 1, 0 )
+
+// ABC Classification for products
+ABC Class =
+VAR ProductRev   = [Total Revenue]
+VAR TotalRev     = CALCULATE( [Total Revenue], ALL( Sales[Product] ) )
+VAR CumulPct     = DIVIDE(
+    CALCULATE(
+        [Total Revenue],
+        FILTER(
+            ALL( Sales[Product] ),
+            RANKX( ALL( Sales[Product] ), [Total Revenue],, DESC, DENSE )
+            <= [Product Revenue Rank]
+        )
+    ),
+    TotalRev
+)
+RETURN
+    SWITCH(
+        TRUE(),
+        CumulPct <= 0.70, "A — Core (Top 70%)",
+        CumulPct <= 0.90, "B — Support (70–90%)",
+        "C — Long Tail (90–100%)"
+    )
+
+
+// ─────────────────────────────────────────────
+// TABLE 5 : KPI CARD HELPERS
+// ─────────────────────────────────────────────
+
+Revenue MoM Arrow =
+VAR Growth = [MoM Revenue Growth %]
+RETURN
+    IF( Growth >= 0, "▲ " & FORMAT( Growth, "0.0%" ), "▼ " & FORMAT( ABS(Growth), "0.0%" ) )
+
+Profit Margin Color =
+SWITCH(
+    TRUE(),
+    [Gross Profit Margin %] >= 0.35, "Green",
+    [Gross Profit Margin %] >= 0.20, "Yellow",
+    "Red"
+)
+
+// Dynamic title for visuals
+Selected Period Label =
+VAR yr  = SELECTEDVALUE( 'Date'[Year] )
+VAR mo  = SELECTEDVALUE( 'Date'[MonthName] )
+RETURN
+    IF( ISBLANK(mo), IF( ISBLANK(yr), "All Time", yr & " Full Year" ), mo & " " & yr )
+
+
+// ─────────────────────────────────────────────
+// TABLE 6 : DATE TABLE (Calculated Table)
+// Paste as: Modeling > New Table
+// ─────────────────────────────────────────────
+
+/*
+Date =
+VAR MinDate = MIN( Sales[OrderDate] )
+VAR MaxDate = MAX( Sales[OrderDate] )
+RETURN
+ADDCOLUMNS(
+    CALENDAR( MinDate, MaxDate ),
+    "Year",        YEAR( [Date] ),
+    "MonthNum",    MONTH( [Date] ),
+    "MonthName",   FORMAT( [Date], "MMMM" ),
+    "MonthShort",  FORMAT( [Date], "MMM" ),
+    "Quarter",     "Q" & QUARTER( [Date] ),
+    "QuarterNum",  QUARTER( [Date] ),
+    "YearMonth",   FORMAT( [Date], "YYYY-MM" ),
+    "YearQuarter", YEAR([Date]) & " Q" & QUARTER([Date]),
+    "WeekNum",     WEEKNUM( [Date] ),
+    "DayOfWeek",   FORMAT( [Date], "dddd" ),
+    "IsWeekend",   IF( WEEKDAY( [Date], 2 ) >= 6, TRUE, FALSE ),
+    "FiscalYear",  IF( MONTH([Date]) >= 4, "FY" & YEAR([Date]), "FY" & (YEAR([Date])-1) ),
+    "FiscalQuarter", "FQ" & IF( MONTH([Date])>=4, ROUNDUP((MONTH([Date])-3)/3,0), ROUNDUP((MONTH([Date])+9)/3,0) )
+)
+*/

@@ -1,0 +1,70 @@
+{
+  "name": "Sales Intelligence Theme",
+  "dataColors": [
+    "#1E6FD9",
+    "#27AE8F",
+    "#F2A900",
+    "#E05C2A",
+    "#7B4FD4",
+    "#2EC4B6",
+    "#FF6B6B",
+    "#4A90D9"
+  ],
+  "background": "#F7F9FC",
+  "foreground": "#1A2332",
+  "tableAccent": "#1E6FD9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#1A2332" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3EAF4" } }, "radius": 8 }],
+        "shadow": [{ "show": true }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "solid": { "color": "#F0F3F8" } }],
+        "outspace": [{ "solid": { "color": "#E5EAF2" } }]
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1A2332"
+    },
+    "header": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI",
+      "color": "#3D5A7A"
+    },
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Light",
+      "color": "#1E6FD9"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7C93"
+    }
+  }
+}

@@ -1,0 +1,901 @@
+Year,Month,Region,Category,RevenueTarget
+2022,1,North,Electronics,44924
+2022,1,North,Furniture,67903
+2022,1,North,Office Supplies,50001
+2022,1,North,Clothing,72154
+2022,1,North,Software,112759
+2022,1,South,Electronics,102703
+2022,1,South,Furniture,112982
+2022,1,South,Office Supplies,68409
+2022,1,South,Clothing,45191
+2022,1,South,Software,82065
+2022,1,East,Electronics,91552
+2022,1,East,Furniture,109516
+2022,1,East,Office Supplies,57380
+2022,1,East,Clothing,107580
+2022,1,East,Software,102579
+2022,1,West,Electronics,89009
+2022,1,West,Furniture,70427
+2022,1,West,Office Supplies,70857
+2022,1,West,Clothing,83178
+2022,1,West,Software,83448
+2022,1,Central,Electronics,63322
+2022,1,Central,Furniture,95512
+2022,1,Central,Office Supplies,62500
+2022,1,Central,Clothing,46981
+2022,1,Central,Software,57793
+2022,2,North,Electronics,118410
+2022,2,North,Furniture,76276
+2022,2,North,Office Supplies,111940
+2022,2,North,Clothing,104351
+2022,2,North,Software,73237
+2022,2,South,Electronics,102921
+2022,2,South,Furniture,106083
+2022,2,South,Office Supplies,56238
+2022,2,South,Clothing,54907
+2022,2,South,Software,64418
+2022,2,East,Electronics,113207
+2022,2,East,Furniture,60662
+2022,2,East,Office Supplies,92852
+2022,2,East,Clothing,117449
+2022,2,East,Software,117232
+2022,2,West,Electronics,65816
+2022,2,West,Furniture,78061
+2022,2,West,Office Supplies,88285
+2022,2,West,Clothing,56019
+2022,2,West,Software,99252
+2022,2,Central,Electronics,70245
+2022,2,Central,Furniture,114787
+2022,2,Central,Office Supplies,61653
+2022,2,Central,Clothing,56716
+2022,2,Central,Software,58015
+2022,3,North,Electronics,115891
+2022,3,North,Furniture,68970
+2022,3,North,Office Supplies,50840
+2022,3,North,Clothing,97736
+2022,3,North,Software,100304
+2022,3,South,Electronics,106936
+2022,3,South,Furniture,96557
+2022,3,South,Office Supplies,83993
+2022,3,South,Clothing,41058
+2022,3,South,Software,72020
+2022,3,East,Electronics,114404
+2022,3,East,Furniture,76294
+2022,3,East,Office Supplies,97590
+2022,3,East,Clothing,88958
+2022,3,East,Software,47271
+2022,3,West,Electronics,81453
+2022,3,West,Furniture,82684
+2022,3,West,Office Supplies,103223
+2022,3,West,Clothing,104873
+2022,3,West,Software,103244
+2022,3,Central,Electronics,113733
+2022,3,Central,Furniture,50338
+2022,3,Central,Office Supplies,100120
+2022,3,Central,Clothing,79407
+2022,3,Central,Software,66717
+2022,4,North,Electronics,49720
+2022,4,North,Furniture,56454
+2022,4,North,Office Supplies,79487
+2022,4,North,Clothing,67745
+2022,4,North,Software,79558
+2022,4,South,Electronics,81846
+2022,4,South,Furniture,67052
+2022,4,South,Office Supplies,85841
+2022,4,South,Clothing,72458
+2022,4,South,Software,105916
+2022,4,East,Electronics,50025
+2022,4,East,Furniture,49005
+2022,4,East,Office Supplies,83309
+2022,4,East,Clothing,104874
+2022,4,East,Software,86100
+2022,4,West,Electronics,44149
+2022,4,West,Furniture,117019
+2022,4,West,Office Supplies,58444
+2022,4,West,Clothing,100218
+2022,4,West,Software,60699
+2022,4,Central,Electronics,46575
+2022,4,Central,Furniture,75608
+2022,4,Central,Office Supplies,107576
+2022,4,Central,Clothing,44540
+2022,4,Central,Software,64654
+2022,5,North,Electronics,89877
+2022,5,North,Furniture,117532
+2022,5,North,Office Supplies,88910
+2022,5,North,Clothing,99075
+2022,5,North,Software,86181
+2022,5,South,Electronics,94749
+2022,5,South,Furniture,64438
+2022,5,South,Office Supplies,73630
+2022,5,South,Clothing,65831
+2022,5,South,Software,66144
+2022,5,East,Electronics,115578
+2022,5,East,Furniture,53162
+2022,5,East,Office Supplies,93338
+2022,5,East,Clothing,110233
+2022,5,East,Software,89488
+2022,5,West,Electronics,100373
+2022,5,West,Furniture,40624
+2022,5,West,Office Supplies,108269
+2022,5,West,Clothing,110399
+2022,5,West,Software,81343
+2022,5,Central,Electronics,82534
+2022,5,Central,Furniture,42172
+2022,5,Central,Office Supplies,92394
+2022,5,Central,Clothing,115055
+2022,5,Central,Software,75687
+2022,6,North,Electronics,69862
+2022,6,North,Furniture,115918
+2022,6,North,Office Supplies,75728
+2022,6,North,Clothing,74868
+2022,6,North,Software,53913
+2022,6,South,Electronics,47922
+2022,6,South,Furniture,48841
+2022,6,South,Office Supplies,42050
+2022,6,South,Clothing,79300
+2022,6,South,Software,59124
+2022,6,East,Electronics,103803
+2022,6,East,Furniture,117726
+2022,6,East,Office Supplies,102120
+2022,6,East,Clothing,74136
+2022,6,East,Software,65290
+2022,6,West,Electronics,85718
+2022,6,West,Furniture,76491
+2022,6,West,Office Supplies,116616
+2022,6,West,Clothing,59694
+2022,6,West,Software,55038
+2022,6,Central,Electronics,40183
+2022,6,Central,Furniture,53999
+2022,6,Central,Office Supplies,108756
+2022,6,Central,Clothing,49306
+2022,6,Central,Software,106182
+2022,7,North,Electronics,111525
+2022,7,North,Furniture,94481
+2022,7,North,Office Supplies,54892
+2022,7,North,Clothing,68066
+2022,7,North,Software,60397
+2022,7,South,Electronics,116837
+2022,7,South,Furniture,72167
+2022,7,South,Office Supplies,88458
+2022,7,South,Clothing,98759
+2022,7,South,Software,82068
+2022,7,East,Electronics,67543
+2022,7,East,Furniture,109293
+2022,7,East,Office Supplies,80197
+2022,7,East,Clothing,105902
+2022,7,East,Software,50166
+2022,7,West,Electronics,53204
+2022,7,West,Furniture,51685
+2022,7,West,Office Supplies,82591
+2022,7,West,Clothing,105468
+2022,7,West,Software,44926
+2022,7,Central,Electronics,64727
+2022,7,Central,Furniture,79264
+2022,7,Central,Office Supplies,100038
+2022,7,Central,Clothing,88422
+2022,7,Central,Software,91854
+2022,8,North,Electronics,46974
+2022,8,North,Furniture,52125
+2022,8,North,Office Supplies,94006
+2022,8,North,Clothing,77524
+2022,8,North,Software,61151
+2022,8,South,Electronics,90377
+2022,8,South,Furniture,64559
+2022,8,South,Office Supplies,79569
+2022,8,South,Clothing,83820
+2022,8,South,Software,82380
+2022,8,East,Electronics,77202
+2022,8,East,Furniture,94555
+2022,8,East,Office Supplies,61321
+2022,8,East,Clothing,40425
+2022,8,East,Software,63313
+2022,8,West,Electronics,56179
+2022,8,West,Furniture,70214
+2022,8,West,Office Supplies,84785
+2022,8,West,Clothing,72854
+2022,8,West,Software,91037
+2022,8,Central,Electronics,62232
+2022,8,Central,Furniture,58885
+2022,8,Central,Office Supplies,72762
+2022,8,Central,Clothing,114660
+2022,8,Central,Software,77288
+2022,9,North,Electronics,40519
+2022,9,North,Furniture,104250
+2022,9,North,Office Supplies,50926
+2022,9,North,Clothing,98303
+2022,9,North,Software,72259
+2022,9,South,Electronics,78679
+2022,9,South,Furniture,70025
+2022,9,South,Office Supplies,76201
+2022,9,South,Clothing,90452
+2022,9,South,Software,90203
+2022,9,East,Electronics,48134
+2022,9,East,Furniture,84632
+2022,9,East,Office Supplies,73972
+2022,9,East,Clothing,101903
+2022,9,East,Software,46499
+2022,9,West,Electronics,46637
+2022,9,West,Furniture,94672
+2022,9,West,Office Supplies,46648
+2022,9,West,Clothing,72746
+2022,9,West,Software,114800
+2022,9,Central,Electronics,108876
+2022,9,Central,Furniture,50091
+2022,9,Central,Office Supplies,46746
+2022,9,Central,Clothing,97867
+2022,9,Central,Software,115771
+2022,10,North,Electronics,86854
+2022,10,North,Furniture,54202
+2022,10,North,Office Supplies,91273
+2022,10,North,Clothing,64888
+2022,10,North,Software,84210
+2022,10,South,Electronics,57493
+2022,10,South,Furniture,49772
+2022,10,South,Office Supplies,74047
+2022,10,South,Clothing,51194
+2022,10,South,Software,63241
+2022,10,East,Electronics,40059
+2022,10,East,Furniture,62342
+2022,10,East,Office Supplies,61686
+2022,10,East,Clothing,78150
+2022,10,East,Software,53984
+2022,10,West,Electronics,103911
+2022,10,West,Furniture,84296
+2022,10,West,Office Supplies,92344
+2022,10,West,Clothing,48830
+2022,10,West,Software,90196
+2022,10,Central,Electronics,107449
+2022,10,Central,Furniture,45453
+2022,10,Central,Office Supplies,119609
+2022,10,Central,Clothing,84228
+2022,10,Central,Software,97163
+2022,11,North,Electronics,73173
+2022,11,North,Furniture,51258
+2022,11,North,Office Supplies,109308
+2022,11,North,Clothing,84010
+2022,11,North,Software,75364
+2022,11,South,Electronics,55970
+2022,11,South,Furniture,65132
+2022,11,South,Office Supplies,68617
+2022,11,South,Clothing,65828
+2022,11,South,Software,96983
+2022,11,East,Electronics,91388
+2022,11,East,Furniture,87140
+2022,11,East,Office Supplies,41616
+2022,11,East,Clothing,58412
+2022,11,East,Software,107880
+2022,11,West,Electronics,84635
+2022,11,West,Furniture,118286
+2022,11,West,Office Supplies,48826
+2022,11,West,Clothing,83088
+2022,11,West,Software,96504
+2022,11,Central,Electronics,81876
+2022,11,Central,Furniture,112341
+2022,11,Central,Office Supplies,55279
+2022,11,Central,Clothing,97572
+2022,11,Central,Software,52963
+2022,12,North,Electronics,88917
+2022,12,North,Furniture,102055
+2022,12,North,Office Supplies,111932
+2022,12,North,Clothing,62339
+2022,12,North,Software,114163
+2022,12,South,Electronics,47804
+2022,12,South,Furniture,83148
+2022,12,South,Office Supplies,63288
+2022,12,South,Clothing,79848
+2022,12,South,Software,117679
+2022,12,East,Electronics,63367
+2022,12,East,Furniture,62306
+2022,12,East,Office Supplies,51225
+2022,12,East,Clothing,116663
+2022,12,East,Software,55223
+2022,12,West,Electronics,53453
+2022,12,West,Furniture,77111
+2022,12,West,Office Supplies,60975
+2022,12,West,Clothing,114767
+2022,12,West,Software,116401
+2022,12,Central,Electronics,119639
+2022,12,Central,Furniture,75433
+2022,12,Central,Office Supplies,106031
+2022,12,Central,Clothing,54798
+2022,12,Central,Software,78036
+2023,1,North,Electronics,54438
+2023,1,North,Furniture,77256
+2023,1,North,Office Supplies,40896
+2023,1,North,Clothing,51021
+2023,1,North,Software,68363
+2023,1,South,Electronics,107270
+2023,1,South,Furniture,87424
+2023,1,South,Office Supplies,92005
+2023,1,South,Clothing,115660
+2023,1,South,Software,116163
+2023,1,East,Electronics,64846
+2023,1,East,Furniture,116085
+2023,1,East,Office Supplies,55859
+2023,1,East,Clothing,77291
+2023,1,East,Software,62073
+2023,1,West,Electronics,94026
+2023,1,West,Furniture,82132
+2023,1,West,Office Supplies,60163
+2023,1,West,Clothing,40749
+2023,1,West,Software,55821
+2023,1,Central,Electronics,61271
+2023,1,Central,Furniture,44001
+2023,1,Central,Office Supplies,54165
+2023,1,Central,Clothing,99011
+2023,1,Central,Software,79579
+2023,2,North,Electronics,45630
+2023,2,North,Furniture,59942
+2023,2,North,Office Supplies,46768
+2023,2,North,Clothing,106334
+2023,2,North,Software,79678
+2023,2,South,Electronics,80268
+2023,2,South,Furniture,97126
+2023,2,South,Office Supplies,105954
+2023,2,South,Clothing,107304
+2023,2,South,Software,108232
+2023,2,East,Electronics,91249
+2023,2,East,Furniture,92854
+2023,2,East,Office Supplies,87708
+2023,2,East,Clothing,78967
+2023,2,East,Software,111271
+2023,2,West,Electronics,49712
+2023,2,West,Furniture,111101
+2023,2,West,Office Supplies,59251
+2023,2,West,Clothing,100732
+2023,2,West,Software,64460
+2023,2,Central,Electronics,118624
+2023,2,Central,Furniture,56334
+2023,2,Central,Office Supplies,72413
+2023,2,Central,Clothing,90539
+2023,2,Central,Software,99908
+2023,3,North,Electronics,82853
+2023,3,North,Furniture,119517
+2023,3,North,Office Supplies,53340
+2023,3,North,Clothing,94570
+2023,3,North,Software,80916
+2023,3,South,Electronics,75797
+2023,3,South,Furniture,115591
+2023,3,South,Office Supplies,56220
+2023,3,South,Clothing,81072
+2023,3,South,Software,65085
+2023,3,East,Electronics,59599
+2023,3,East,Furniture,54900
+2023,3,East,Office Supplies,113367
+2023,3,East,Clothing,43334
+2023,3,East,Software,52465
+2023,3,West,Electronics,52894
+2023,3,West,Furniture,64993
+2023,3,West,Office Supplies,48078
+2023,3,West,Clothing,107814
+2023,3,West,Software,81241
+2023,3,Central,Electronics,58008
+2023,3,Central,Furniture,68538
+2023,3,Central,Office Supplies,53414
+2023,3,Central,Clothing,87094
+2023,3,Central,Software,92775
+2023,4,North,Electronics,109942
+2023,4,North,Furniture,62390
+2023,4,North,Office Supplies,70909
+2023,4,North,Clothing,77987
+2023,4,North,Software,63990
+2023,4,South,Electronics,111191
+2023,4,South,Furniture,72860
+2023,4,South,Office Supplies,41621
+2023,4,South,Clothing,56434
+2023,4,South,Software,59339
+2023,4,East,Electronics,73003
+2023,4,East,Furniture,91712
+2023,4,East,Office Supplies,62826
+2023,4,East,Clothing,91519
+2023,4,East,Software,102470
+2023,4,West,Electronics,50705
+2023,4,West,Furniture,71810
+2023,4,West,Office Supplies,60722
+2023,4,West,Clothing,41314
+2023,4,West,Software,58276
+2023,4,Central,Electronics,81043
+2023,4,Central,Furniture,72361
+2023,4,Central,Office Supplies,73179
+2023,4,Central,Clothing,60830
+2023,4,Central,Software,71685
+2023,5,North,Electronics,110372
+2023,5,North,Furniture,95562
+2023,5,North,Office Supplies,97804
+2023,5,North,Clothing,45158
+2023,5,North,Software,98744
+2023,5,South,Electronics,102139
+2023,5,South,Furniture,90445
+2023,5,South,Office Supplies,43884
+2023,5,South,Clothing,80755
+2023,5,South,Software,57644
+2023,5,East,Electronics,65939
+2023,5,East,Furniture,117338
+2023,5,East,Office Supplies,110157
+2023,5,East,Clothing,104683
+2023,5,East,Software,95916
+2023,5,West,Electronics,91791
+2023,5,West,Furniture,101573
+2023,5,West,Office Supplies,79634
+2023,5,West,Clothing,46790
+2023,5,West,Software,110658
+2023,5,Central,Electronics,105432
+2023,5,Central,Furniture,103805
+2023,5,Central,Office Supplies,57575
+2023,5,Central,Clothing,49835
+2023,5,Central,Software,45205
+2023,6,North,Electronics,98827
+2023,6,North,Furniture,84307
+2023,6,North,Office Supplies,63393
+2023,6,North,Clothing,78287
+2023,6,North,Software,46784
+2023,6,South,Electronics,42682
+2023,6,South,Furniture,71601
+2023,6,South,Office Supplies,68660
+2023,6,South,Clothing,44691
+2023,6,South,Software,88545
+2023,6,East,Electronics,49573
+2023,6,East,Furniture,42447
+2023,6,East,Office Supplies,118426
+2023,6,East,Clothing,104624
+2023,6,East,Software,58958
+2023,6,West,Electronics,77179
+2023,6,West,Furniture,100548
+2023,6,West,Office Supplies,58031
+2023,6,West,Clothing,85175
+2023,6,West,Software,76242
+2023,6,Central,Electronics,63966
+2023,6,Central,Furniture,96657
+2023,6,Central,Office Supplies,85397
+2023,6,Central,Clothing,77924
+2023,6,Central,Software,48484
+2023,7,North,Electronics,97261
+2023,7,North,Furniture,109710
+2023,7,North,Office Supplies,117674
+2023,7,North,Clothing,67180
+2023,7,North,Software,117794
+2023,7,South,Electronics,63315
+2023,7,South,Furniture,103621
+2023,7,South,Office Supplies,96937
+2023,7,South,Clothing,70662
+2023,7,South,Software,116143
+2023,7,East,Electronics,112208
+2023,7,East,Furniture,81820
+2023,7,East,Office Supplies,64285
+2023,7,East,Clothing,68774
+2023,7,East,Software,112817
+2023,7,West,Electronics,53552
+2023,7,West,Furniture,112264
+2023,7,West,Office Supplies,62185
+2023,7,West,Clothing,107015
+2023,7,West,Software,115570
+2023,7,Central,Electronics,64998
+2023,7,Central,Furniture,89981
+2023,7,Central,Office Supplies,65127
+2023,7,Central,Clothing,61811
+2023,7,Central,Software,100217
+2023,8,North,Electronics,111995
+2023,8,North,Furniture,95899
+2023,8,North,Office Supplies,107629
+2023,8,North,Clothing,42797
+2023,8,North,Software,102666
+2023,8,South,Electronics,45207
+2023,8,South,Furniture,75939
+2023,8,South,Office Supplies,63677
+2023,8,South,Clothing,70441
+2023,8,South,Software,86174
+2023,8,East,Electronics,99848
+2023,8,East,Furniture,70275
+2023,8,East,Office Supplies,50364
+2023,8,East,Clothing,108296
+2023,8,East,Software,118916
+2023,8,West,Electronics,88131
+2023,8,West,Furniture,115866
+2023,8,West,Office Supplies,70836
+2023,8,West,Clothing,49276
+2023,8,West,Software,50570
+2023,8,Central,Electronics,95886
+2023,8,Central,Furniture,115837
+2023,8,Central,Office Supplies,117748
+2023,8,Central,Clothing,64521
+2023,8,Central,Software,50600
+2023,9,North,Electronics,65056
+2023,9,North,Furniture,81779
+2023,9,North,Office Supplies,72695
+2023,9,North,Clothing,80954
+2023,9,North,Software,101286
+2023,9,South,Electronics,47474
+2023,9,South,Furniture,85374
+2023,9,South,Office Supplies,40896
+2023,9,South,Clothing,101509
+2023,9,South,Software,40432
+2023,9,East,Electronics,104961
+2023,9,East,Furniture,102847
+2023,9,East,Office Supplies,89146
+2023,9,East,Clothing,40803
+2023,9,East,Software,113215
+2023,9,West,Electronics,112296
+2023,9,West,Furniture,78998
+2023,9,West,Office Supplies,114231
+2023,9,West,Clothing,77034
+2023,9,West,Software,115742
+2023,9,Central,Electronics,119878
+2023,9,Central,Furniture,92363
+2023,9,Central,Office Supplies,65928
+2023,9,Central,Clothing,85416
+2023,9,Central,Software,99777
+2023,10,North,Electronics,89530
+2023,10,North,Furniture,106134
+2023,10,North,Office Supplies,94545
+2023,10,North,Clothing,94342
+2023,10,North,Software,56416
+2023,10,South,Electronics,49265
+2023,10,South,Furniture,71153
+2023,10,South,Office Supplies,111674
+2023,10,South,Clothing,41505
+2023,10,South,Software,82644
+2023,10,East,Electronics,115864
+2023,10,East,Furniture,86976
+2023,10,East,Office Supplies,49562
+2023,10,East,Clothing,73712
+2023,10,East,Software,112410
+2023,10,West,Electronics,76631
+2023,10,West,Furniture,87054
+2023,10,West,Office Supplies,76425
+2023,10,West,Clothing,62454
+2023,10,West,Software,61349
+2023,10,Central,Electronics,88599
+2023,10,Central,Furniture,116375
+2023,10,Central,Office Supplies,83622
+2023,10,Central,Clothing,84124
+2023,10,Central,Software,53214
+2023,11,North,Electronics,65709
+2023,11,North,Furniture,64763
+2023,11,North,Office Supplies,44531
+2023,11,North,Clothing,82913
+2023,11,North,Software,48823
+2023,11,South,Electronics,86008
+2023,11,South,Furniture,78554
+2023,11,South,Office Supplies,52617
+2023,11,South,Clothing,116262
+2023,11,South,Software,94194
+2023,11,East,Electronics,67285
+2023,11,East,Furniture,86450
+2023,11,East,Office Supplies,54383
+2023,11,East,Clothing,53041
+2023,11,East,Software,43396
+2023,11,West,Electronics,118204
+2023,11,West,Furniture,93834
+2023,11,West,Office Supplies,105258
+2023,11,West,Clothing,80451
+2023,11,West,Software,84908
+2023,11,Central,Electronics,54058
+2023,11,Central,Furniture,70198
+2023,11,Central,Office Supplies,96215
+2023,11,Central,Clothing,70065
+2023,11,Central,Software,92678
+2023,12,North,Electronics,86593
+2023,12,North,Furniture,119351
+2023,12,North,Office Supplies,41286
+2023,12,North,Clothing,83932
+2023,12,North,Software,43989
+2023,12,South,Electronics,73005
+2023,12,South,Furniture,48504
+2023,12,South,Office Supplies,104387
+2023,12,South,Clothing,71110
+2023,12,South,Software,105093
+2023,12,East,Electronics,58659
+2023,12,East,Furniture,58437
+2023,12,East,Office Supplies,71097
+2023,12,East,Clothing,74185
+2023,12,East,Software,57604
+2023,12,West,Electronics,95025
+2023,12,West,Furniture,103814
+2023,12,West,Office Supplies,105841
+2023,12,West,Clothing,101095
+2023,12,West,Software,45182
+2023,12,Central,Electronics,66046
+2023,12,Central,Furniture,62608
+2023,12,Central,Office Supplies,68374
+2023,12,Central,Clothing,111433
+2023,12,Central,Software,54684
+2024,1,North,Electronics,58340
+2024,1,North,Furniture,107627
+2024,1,North,Office Supplies,50509
+2024,1,North,Clothing,97848
+2024,1,North,Software,48274
+2024,1,South,Electronics,108986
+2024,1,South,Furniture,114737
+2024,1,South,Office Supplies,70154
+2024,1,South,Clothing,86308
+2024,1,South,Software,80266
+2024,1,East,Electronics,98080
+2024,1,East,Furniture,81963
+2024,1,East,Office Supplies,58222
+2024,1,East,Clothing,55729
+2024,1,East,Software,49254
+2024,1,West,Electronics,61132
+2024,1,West,Furniture,97833
+2024,1,West,Office Supplies,81572
+2024,1,West,Clothing,116197
+2024,1,West,Software,95458
+2024,1,Central,Electronics,72003
+2024,1,Central,Furniture,105279
+2024,1,Central,Office Supplies,68502
+2024,1,Central,Clothing,49218
+2024,1,Central,Software,51492
+2024,2,North,Electronics,80083
+2024,2,North,Furniture,119472
+2024,2,North,Office Supplies,66980
+2024,2,North,Clothing,71274
+2024,2,North,Software,53782
+2024,2,South,Electronics,42116
+2024,2,South,Furniture,110128
+2024,2,South,Office Supplies,106043
+2024,2,South,Clothing,92789
+2024,2,South,Software,61230
+2024,2,East,Electronics,71553
+2024,2,East,Furniture,47056
+2024,2,East,Office Supplies,96621
+2024,2,East,Clothing,83821
+2024,2,East,Software,116213
+2024,2,West,Electronics,74002
+2024,2,West,Furniture,43453
+2024,2,West,Office Supplies,43506
+2024,2,West,Clothing,70785
+2024,2,West,Software,109802
+2024,2,Central,Electronics,52520
+2024,2,Central,Furniture,106772
+2024,2,Central,Office Supplies,42452
+2024,2,Central,Clothing,71910
+2024,2,Central,Software,94720
+2024,3,North,Electronics,79038
+2024,3,North,Furniture,111714
+2024,3,North,Office Supplies,88788
+2024,3,North,Clothing,52147
+2024,3,North,Software,44906
+2024,3,South,Electronics,45836
+2024,3,South,Furniture,56906
+2024,3,South,Office Supplies,48876
+2024,3,South,Clothing,105640
+2024,3,South,Software,60062
+2024,3,East,Electronics,79918
+2024,3,East,Furniture,49935
+2024,3,East,Office Supplies,73138
+2024,3,East,Clothing,43111
+2024,3,East,Software,111299
+2024,3,West,Electronics,51435
+2024,3,West,Furniture,98686
+2024,3,West,Office Supplies,45969
+2024,3,West,Clothing,57657
+2024,3,West,Software,107868
+2024,3,Central,Electronics,74313
+2024,3,Central,Furniture,95398
+2024,3,Central,Office Supplies,48215
+2024,3,Central,Clothing,95654
+2024,3,Central,Software,112109
+2024,4,North,Electronics,101680
+2024,4,North,Furniture,109855
+2024,4,North,Office Supplies,98407
+2024,4,North,Clothing,65108
+2024,4,North,Software,64080
+2024,4,South,Electronics,48418
+2024,4,South,Furniture,76903
+2024,4,South,Office Supplies,114432
+2024,4,South,Clothing,119505
+2024,4,South,Software,115227
+2024,4,East,Electronics,102684
+2024,4,East,Furniture,41408
+2024,4,East,Office Supplies,67475
+2024,4,East,Clothing,56824
+2024,4,East,Software,42700
+2024,4,West,Electronics,76713
+2024,4,West,Furniture,64603
+2024,4,West,Office Supplies,80814
+2024,4,West,Clothing,104956
+2024,4,West,Software,73529
+2024,4,Central,Electronics,67924
+2024,4,Central,Furniture,66860
+2024,4,Central,Office Supplies,80211
+2024,4,Central,Clothing,80034
+2024,4,Central,Software,57001
+2024,5,North,Electronics,53693
+2024,5,North,Furniture,45686
+2024,5,North,Office Supplies,93917
+2024,5,North,Clothing,87346
+2024,5,North,Software,48695
+2024,5,South,Electronics,45896
+2024,5,South,Furniture,42727
+2024,5,South,Office Supplies,78565
+2024,5,South,Clothing,91786
+2024,5,South,Software,40254
+2024,5,East,Electronics,48603
+2024,5,East,Furniture,41571
+2024,5,East,Office Supplies,78311
+2024,5,East,Clothing,54486
+2024,5,East,Software,66119
+2024,5,West,Electronics,55985
+2024,5,West,Furniture,70724
+2024,5,West,Office Supplies,84070
+2024,5,West,Clothing,88023
+2024,5,West,Software,83772
+2024,5,Central,Electronics,99665
+2024,5,Central,Furniture,114871
+2024,5,Central,Office Supplies,79775
+2024,5,Central,Clothing,57453
+2024,5,Central,Software,46202
+2024,6,North,Electronics,101912
+2024,6,North,Furniture,59233
+2024,6,North,Office Supplies,56764
+2024,6,North,Clothing,70411
+2024,6,North,Software,118223
+2024,6,South,Electronics,86837
+2024,6,South,Furniture,95477
+2024,6,South,Office Supplies,100850
+2024,6,South,Clothing,57101
+2024,6,South,Software,51152
+2024,6,East,Electronics,104110
+2024,6,East,Furniture,89515
+2024,6,East,Office Supplies,50060
+2024,6,East,Clothing,108515
+2024,6,East,Software,118631
+2024,6,West,Electronics,113308
+2024,6,West,Furniture,116291
+2024,6,West,Office Supplies,112655
+2024,6,West,Clothing,105118
+2024,6,West,Software,112577
+2024,6,Central,Electronics,99500
+2024,6,Central,Furniture,104370
+2024,6,Central,Office Supplies,95511
+2024,6,Central,Clothing,102406
+2024,6,Central,Software,97403
+2024,7,North,Electronics,88636
+2024,7,North,Furniture,48331
+2024,7,North,Office Supplies,68539
+2024,7,North,Clothing,105549
+2024,7,North,Software,102964
+2024,7,South,Electronics,100911
+2024,7,South,Furniture,50021
+2024,7,South,Office Supplies,56881
+2024,7,South,Clothing,67929
+2024,7,South,Software,119491
+2024,7,East,Electronics,110391
+2024,7,East,Furniture,51013
+2024,7,East,Office Supplies,109865
+2024,7,East,Clothing,115203
+2024,7,East,Software,69256
+2024,7,West,Electronics,99830
+2024,7,West,Furniture,61068
+2024,7,West,Office Supplies,45468
+2024,7,West,Clothing,76403
+2024,7,West,Software,106411
+2024,7,Central,Electronics,102462
+2024,7,Central,Furniture,69468
+2024,7,Central,Office Supplies,45090
+2024,7,Central,Clothing,76033
+2024,7,Central,Software,87349
+2024,8,North,Electronics,55323
+2024,8,North,Furniture,116929
+2024,8,North,Office Supplies,73149
+2024,8,North,Clothing,81823
+2024,8,North,Software,84771
+2024,8,South,Electronics,105705
+2024,8,South,Furniture,93724
+2024,8,South,Office Supplies,106821
+2024,8,South,Clothing,51074
+2024,8,South,Software,99800
+2024,8,East,Electronics,69274
+2024,8,East,Furniture,76772
+2024,8,East,Office Supplies,54872
+2024,8,East,Clothing,110588
+2024,8,East,Software,112813
+2024,8,West,Electronics,44013
+2024,8,West,Furniture,105356
+2024,8,West,Office Supplies,115856
+2024,8,West,Clothing,92787
+2024,8,West,Software,80854
+2024,8,Central,Electronics,45249
+2024,8,Central,Furniture,72502
+2024,8,Central,Office Supplies,54017
+2024,8,Central,Clothing,85591
+2024,8,Central,Software,103499
+2024,9,North,Electronics,81811
+2024,9,North,Furniture,106846
+2024,9,North,Office Supplies,83444
+2024,9,North,Clothing,65258
+2024,9,North,Software,114544
+2024,9,South,Electronics,53899
+2024,9,South,Furniture,110691
+2024,9,South,Office Supplies,82636
+2024,9,South,Clothing,71250
+2024,9,South,Software,91288
+2024,9,East,Electronics,58377
+2024,9,East,Furniture,44321
+2024,9,East,Office Supplies,87408
+2024,9,East,Clothing,76559
+2024,9,East,Software,80064
+2024,9,West,Electronics,118767
+2024,9,West,Furniture,65062
+2024,9,West,Office Supplies,70872
+2024,9,West,Clothing,116484
+2024,9,West,Software,63946
+2024,9,Central,Electronics,98727
+2024,9,Central,Furniture,50636
+2024,9,Central,Office Supplies,113864
+2024,9,Central,Clothing,81444
+2024,9,Central,Software,72985
+2024,10,North,Electronics,44075
+2024,10,North,Furniture,93815
+2024,10,North,Office Supplies,69871
+2024,10,North,Clothing,107706
+2024,10,North,Software,81158
+2024,10,South,Electronics,95112
+2024,10,South,Furniture,99780
+2024,10,South,Office Supplies,41105
+2024,10,South,Clothing,58385
+2024,10,South,Software,47149
+2024,10,East,Electronics,101375
+2024,10,East,Furniture,49791
+2024,10,East,Office Supplies,86545
+2024,10,East,Clothing,65849
+2024,10,East,Software,100114
+2024,10,West,Electronics,113259
+2024,10,West,Furniture,76582
+2024,10,West,Office Supplies,64367
+2024,10,West,Clothing,47231
+2024,10,West,Software,85398
+2024,10,Central,Electronics,87060
+2024,10,Central,Furniture,85644
+2024,10,Central,Office Supplies,84115
+2024,10,Central,Clothing,68710
+2024,10,Central,Software,81891
+2024,11,North,Electronics,74993
+2024,11,North,Furniture,77016
+2024,11,North,Office Supplies,44720
+2024,11,North,Clothing,99005
+2024,11,North,Software,107652
+2024,11,South,Electronics,117788
+2024,11,South,Furniture,94156
+2024,11,South,Office Supplies,99773
+2024,11,South,Clothing,101339
+2024,11,South,Software,105973
+2024,11,East,Electronics,108895
+2024,11,East,Furniture,110522
+2024,11,East,Office Supplies,117046
+2024,11,East,Clothing,61593
+2024,11,East,Software,57750
+2024,11,West,Electronics,53874
+2024,11,West,Furniture,44100
+2024,11,West,Office Supplies,45072
+2024,11,West,Clothing,99707
+2024,11,West,Software,58328
+2024,11,Central,Electronics,41199
+2024,11,Central,Furniture,76337
+2024,11,Central,Office Supplies,42839
+2024,11,Central,Clothing,80678
+2024,11,Central,Software,104813
+2024,12,North,Electronics,48919
+2024,12,North,Furniture,56357
+2024,12,North,Office Supplies,62778
+2024,12,North,Clothing,78672
+2024,12,North,Software,92760
+2024,12,South,Electronics,53847
+2024,12,South,Furniture,98142
+2024,12,South,Office Supplies,88111
+2024,12,South,Clothing,104458
+2024,12,South,Software,110440
+2024,12,East,Electronics,42047
+2024,12,East,Furniture,76633
+2024,12,East,Office Supplies,52422
+2024,12,East,Clothing,43012
+2024,12,East,Software,80714
+2024,12,West,Electronics,112345
+2024,12,West,Furniture,96036
+2024,12,West,Office Supplies,93589
+2024,12,West,Clothing,103370
+2024,12,West,Software,50724
+2024,12,Central,Electronics,108395
+2024,12,Central,Furniture,94845
+2024,12,Central,Office Supplies,73700
+2024,12,Central,Clothing,75837
+2024,12,Central,Software,59521
